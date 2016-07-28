@@ -1,0 +1,87 @@
+
+/**************************MEDIA QUERY****************************/
+@media only screen and (min-width:768px) and (max-width:1019px) {
+.wrap_menu {
+	width: 98%;
+}
+.navtop2 ul li {
+	margin-left: 5px;
+}
+.navtop2 ul li a {
+	padding: 0 15px;
+}
+.deviceMenu {
+	display: none;
+}
+}
+
+@media only screen and (max-width:767px) {
+.container {
+	width: 98%;
+}
+.navigation{
+	padding:2px 0;
+}
+.deviceMenu {
+	display: block;
+}
+.deviceMenu {
+	width: 47px;
+	height: 47px;
+	float: right;
+	/*text-indent: -9999px;*/
+	background: url(../landing_images/menuopen.jpg) no-repeat 0 0;
+	background-size: 47px auto;
+	margin-right: 10px;
+	font-size: 0;
+	line-height: 0;
+}
+.deviceMenu.openmenu {
+	background: url(../landing_images/menuclose.jpg) no-repeat 0 0;
+	background-size: 47px auto;
+}
+.navtop2 ul {
+	position: absolute;
+	display: none;
+	top: 49px;
+	right: 0;
+	float: none;
+	background: #f94902;
+	z-index: 999;
+	width: 100%;
+}
+.navtop2 ul li {
+	float: none;
+	display: block;
+	margin: 0;
+	background: none;
+	border-top: 1px dotted #fff;
+}
+.navtop2 ul li a {
+	font-size: 13px;
+	line-height: 18px;
+}
+.navtop2 ul li a:hover {
+	background: #1a1f22 none repeat scroll 0 0;
+	color: #fff;
+}
+.navtop2 ul li:first-child {
+	border: none;
+}
+.navtop2 ul li a {
+	padding: 10px 14px;
+}
+.navtop2 ul li ul {
+	position: static;
+}
+.navtop2 ul li.twodrop ul {
+	left: 0;
+	top: 39px;
+}
+.navtop2 ul li.thirddrp ul {
+	display: none;
+	left: 0;
+	top: 39px;
+}
+
+}
